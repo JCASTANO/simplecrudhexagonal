@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import com.unac.hexagonal.dominio.excepcion.ExcepcionUsuarioRepetido;
+import com.unac.hexagonal.dominio.excepcion.ExcepcionValorObligatorio;
 
 @ControllerAdvice
 public class ManejadorError extends ResponseEntityExceptionHandler {
@@ -23,6 +24,7 @@ public class ManejadorError extends ResponseEntityExceptionHandler {
 
     public ManejadorError() {
         CODIGOS_ESTADO.put(ExcepcionUsuarioRepetido.class.getSimpleName(), HttpStatus.CONFLICT.value());
+        CODIGOS_ESTADO.put(ExcepcionValorObligatorio.class.getSimpleName(), HttpStatus.BAD_REQUEST.value());
     }
 
     @ExceptionHandler(Exception.class)
