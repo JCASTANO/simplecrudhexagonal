@@ -8,7 +8,7 @@ import com.unac.hexagonal.dominio.dto.DtoUsuario;
 import com.unac.hexagonal.dominio.puerto.repositorio.RepositorioUsuario;
 
 @Component
-//Patrón service application
+//service application - design pattern
 public class ServicioAplicacionListarUsuarios {
 
 	private final RepositorioUsuario repositorioUsuario;

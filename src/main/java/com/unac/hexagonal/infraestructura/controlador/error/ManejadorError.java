@@ -14,6 +14,7 @@ import com.unac.hexagonal.dominio.excepcion.ExcepcionUsuarioRepetido;
 import com.unac.hexagonal.dominio.excepcion.ExcepcionValorObligatorio;
 
 @ControllerAdvice
+//design pattern error handler
 public class ManejadorError extends ResponseEntityExceptionHandler {
     
     private static final Logger LOGGER_ERROR = LoggerFactory.getLogger(ManejadorError.class);

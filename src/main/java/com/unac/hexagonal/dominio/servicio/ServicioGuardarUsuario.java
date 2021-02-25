@@ -7,7 +7,7 @@ import com.unac.hexagonal.dominio.modelo.Usuario;
 import com.unac.hexagonal.dominio.puerto.repositorio.RepositorioUsuario;
 
 @Service
-//Patrón service domain
+//service domain ddd - design pattern
 public class ServicioGuardarUsuario {
 
 	private static final String MENSAJE_USUARIO_REPETIDO = "El usuario ya existe en el sistema.";

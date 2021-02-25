@@ -5,7 +5,7 @@ import java.util.List;
 import com.unac.hexagonal.dominio.dto.DtoUsuario;
 import com.unac.hexagonal.dominio.modelo.Usuario;
 
-//Port - Arquitectura hexagonal
+//Port - Arquitectura hexagonal - design pattern
 public interface RepositorioUsuario {
 
 	List<DtoUsuario> listar();

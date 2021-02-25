@@ -1,6 +1,6 @@
 package com.unac.hexagonal.dominio.dto;
 
-//Patrón data transfer object
+//data transfer object(dto) - design pattern
 public class DtoUsuario {
 
 	private String correoElectronico;

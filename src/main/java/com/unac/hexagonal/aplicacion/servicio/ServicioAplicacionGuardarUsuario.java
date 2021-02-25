@@ -6,7 +6,7 @@ import com.unac.hexagonal.dominio.modelo.Usuario;
 import com.unac.hexagonal.dominio.servicio.ServicioGuardarUsuario;
 
 @Component
-//Patrón service application
+//service application - design pattern
 public class ServicioAplicacionGuardarUsuario {
 
 	private final ServicioGuardarUsuario servicioGuardarUsuario;

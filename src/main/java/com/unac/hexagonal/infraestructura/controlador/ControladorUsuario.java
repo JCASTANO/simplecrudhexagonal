@@ -13,7 +13,7 @@ import com.unac.hexagonal.aplicacion.servicio.ServicioAplicacionListarUsuarios;
 import com.unac.hexagonal.dominio.dto.DtoUsuario;
 
 @RestController
-//Patrón controller
+//design pattern controller
 public class ControladorUsuario {
 	
 	private final ServicioAplicacionListarUsuarios servicioAplicacionListarUsuarios;
