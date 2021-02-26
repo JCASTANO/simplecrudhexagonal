@@ -6,6 +6,7 @@ import com.unac.hexagonal.dominio.dto.DtoUsuario;
 import com.unac.hexagonal.dominio.modelo.Usuario;
 
 //Port - Arquitectura hexagonal - design pattern
+//contrato - comportamiento
 public interface RepositorioUsuario {
 
 	List<DtoUsuario> listar();

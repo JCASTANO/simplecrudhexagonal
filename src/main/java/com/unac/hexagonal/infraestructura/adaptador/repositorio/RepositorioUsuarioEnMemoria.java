@@ -14,7 +14,7 @@ import com.unac.hexagonal.dominio.puerto.repositorio.RepositorioUsuario;
 //Adapter - Arquitectura Hexagonal - Repository - design pattern
 public class RepositorioUsuarioEnMemoria implements RepositorioUsuario {
 	
-	private List<Usuario> usuarios = new ArrayList<Usuario>();
+	private List<Usuario> usuarios = new ArrayList<Usuario>(); 
 
 	@Override
 	public List<DtoUsuario> listar() {

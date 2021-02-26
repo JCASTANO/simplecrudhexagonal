@@ -2,7 +2,7 @@ package com.unac.hexagonal.dominio.modelo;
 
 import static com.unac.hexagonal.dominio.modelo.ValidadorArgumento.validarObligatorio;
 
-//entity - design pattern en ddd
+//entity - design pattern en ddd (domain driver design)
 public class Usuario {
 
 	private static final String MENSAJE_CLAVE_OBLIGATORIA = "La clave es obligatoria.";
